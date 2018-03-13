@@ -10,7 +10,7 @@ def add_element_to_end_of_array(array, element)
  array =  ["mal", "colm", "is", "cool"]
  element = "speed"
  array << "speed"
-
+ array.push("speed")
 end
 
 def add_element_to_start_of_array(array, element)
